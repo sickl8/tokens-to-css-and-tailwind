@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "tokens-to-css-and-tailwind",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/code.js",
@@ -14,10 +14,14 @@
   "devDependencies": {
     "@figma/eslint-plugin-figma-plugins": "*",
     "@figma/plugin-typings": "*",
+    "@interactjs/types": "^1.10.27",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "@tsconfig/svelte": "^5.0.4",
+    "@types/culori": "^2.1.1",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "@typescript-eslint/parser": "^6.12.0",
+    "acorn": "^8.14.0",
+    "acorn-walk": "^8.3.4",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.54.0",
     "node-html-parser": "^6.1.13",
@@ -50,5 +54,10 @@
         }
       ]
     }
+  },
+  "dependencies": {
+    "culori": "^4.0.1",
+    "interactjs": "^1.10.27",
+    "tailwind-merge": "^2.5.5"
   }
 }

@@ -15,4 +15,9 @@
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	@apply text-figma-text bg-figma-bg border-figma-border text-xs;
+}
+
+button {
+	@apply border border-figma-border px-4 py-2 rounded-md;
 }

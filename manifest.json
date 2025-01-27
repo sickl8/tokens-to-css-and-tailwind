@@ -1,18 +1,1 @@
-{
-  "name": "template",
-  "id": "1447254413029364858",
-  "api": "1.0.0",
-  "main": "dist/code.js",
-  "capabilities": [],
-  "enableProposedApi": false,
-  "documentAccess": "dynamic-page",
-  "editorType": [
-    "figma"
-  ],
-  "ui": "dist/index.html",
-  "networkAccess": {
-    "allowedDomains": [
-      "none"
-    ]
-  }
-}
+/home/sickl8/winhome/Desktop/workspace/figma/manifest.json
