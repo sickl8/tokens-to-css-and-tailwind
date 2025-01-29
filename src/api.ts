@@ -34,6 +34,8 @@ export function postMessage<T extends keyof RemoteFunctions>(type: T, ...data: P
 	return promise;
 }
 
+export type Invoke = typeof invoke;
+
 export const invoke: RemoteFunctions = new Proxy({} as RemoteFunctions, { get(t, p: keyof RemoteFunctions, r) {
 	return (...args: any[]) => {
 		// @ts-ignore
